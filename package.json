@@ -32,6 +32,7 @@
     "dev": "tsup --watch",
     "format": "biome check --write .",
     "test": "tsx --test $(find src -type f -name '*.test.ts')",
+    "test:coverage": "tsx --test --experimental-test-coverage $(find src -type f -name '*.test.ts')",
     "test:watch": "tsx --test --watch $(find src -type f -name '*.test.ts')",
     "changeset": "changeset"
   },
